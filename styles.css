@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.uhr{
+ background: #282e3a;
+ width: 400px;
+ margin: 10px auto;
+ height: 175px;
+ padding: 5px 25px;
+ border: 25px solid darkgray;
+ font-family: Teko;
+ font-size: 80px;
+ padding-top: 5px;
+ border-radius: 30px;
+}
+
+.uhr:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#überschrift {
+   font-family:'Mansalva', cursive;
+   font-size: 80px;
+   padding-top: 120px;
+   letter-spacing: 12px;
+    
+    
+}
+
+
+#hour{
+    background: #fa5559;
+    border-radius: 20px;
+}
+
+#minute{
+    background: #f6bc58;
+    border-radius: 20px;
+}
+#second{
+    background: #2dcb74;
+    border-radius: 20px;
+}
+
+
+.turn{
+    color: red;
+}
+
+
+
+
+
+
+
+
